@@ -1,0 +1,11 @@
+#main {
+    background-color: red;
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+input, button {
+    margin-top: 20px;
+}
