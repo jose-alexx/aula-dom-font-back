@@ -1,9 +1,13 @@
-#main {
+#main, #resultado {
     background-color: red;
     width: 200px;
     padding: 20px;
     margin: auto;
     text-align: center;
+}
+
+.hide {
+    display: none;
 }
 
 input, button {
