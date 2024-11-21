@@ -1,4 +1,4 @@
-const ul = document.querySelector("ul");
+/*const ul = document.querySelector("ul");
 
 console.log(ul);
 console.log(ul.innerHTML);
@@ -12,3 +12,5 @@ console.log(li.innerHTML);
 console.log(li.innerText);
 
 ul.appendChild(li);
+*/
+
