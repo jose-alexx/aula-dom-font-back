@@ -14,3 +14,9 @@ console.log(li.innerText);
 ul.appendChild(li);
 */
 
+const btnVerificar = document.querySelector("#btn-verificar");
+// console.log(btnVerificar);
+
+btnVerificar.addEventListener('click', () => {
+    console.log("Clicou!");
+});
