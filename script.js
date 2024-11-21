@@ -19,4 +19,20 @@ const btnVerificar = document.querySelector("#btn-verificar");
 
 btnVerificar.addEventListener('click', () => {
     console.log("Clicou!");
+
+    const valor = document.querySelector("input");
+    // console.log(valor.value);
+
+    const numero = Number(valor.value);
+
+    const h2 = document.querySelector("h2");
+    
+    if (numero % 2 == 0) 
+        console.log("Par");
+     else 
+        console.log("Impar");
+    
+    valor.valor = "";
 });
+
+
