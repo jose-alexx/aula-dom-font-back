@@ -21,17 +21,23 @@ const btnVoltar = document.querySelector("#btn-voltar");
 
 btnVerificar.addEventListener('click', () => {
     console.log("Clicou!");
-    const valor = document.querySelector("input");
-    // console.log(valor.value);
-    const numero = Number(valor.value);
-    const h2 = document.querySelector("h2");
 
-    if (numero % 2 == 0) 
-        h2.innerText = `O número ${numero} é par`;
-        // console.log("Par");
-    else 
-        h2.innerText = `O número ${numero} é impar`;
-        // console.log("Impar");
+    const valor = document.querySelector("input");
+
+    if (valor.value == "") {
+        alert("Digite um número");
+    } else {
+        // console.log(valor.value);
+        const numero = Number(valor.value);
+        const h2 = document.querySelector("h2");
+
+        if (numero % 2 == 0) 
+           h2.innerText = `O número ${numero} é par`;
+           // console.log("Par");
+        else 
+           h2.innerText = `O número ${numero} é impar`;
+           // console.log("Impar");
+    }
 
     handleClick();
     valor.valor = "";
